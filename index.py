@@ -1,11 +1,12 @@
-num1=int(input("Enter first number: "))
-num2=int(input("Enter second number: "))
-num3=int(input("Enter third number: "))
+mark = int(input("Enter your marks: "))
 
-if num1 > num2 :
-    print(num1, "is the largest number")
-    if num2 > num3:
-        print(num2, "is the second largest number")
+if mark >= 75:
+    print("A")
+elif mark >= 65:
+    print("B")
+elif mark >= 55:
+    print("C")
+elif mark >= 40:
+    print("S")
 else:
-                print(num3, "is the second largest number")
-                
+    print("F")
