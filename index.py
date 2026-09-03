@@ -1,6 +1,9 @@
-unit=int(input("Enter the unit: "))
-if unit >=1 and unit<=30 :
-    unitCost=unit*20
-elif unit >=31 and unit<=90 :
-    unitCost=(unit*20)+(unit*30)
-    
+Data=float(input("Enter used GB: "))
+
+Used_Data = Data-120.000
+
+if Used_Data<=15.000:
+     print("Low data balance recharge your data balance")
+     
+else:
+      print("Your data balance is:", Used_Data,"GB")
